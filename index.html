@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <main>
+        <img src="assets/img/logo_starwars.png" class="logo" alt="">
+        <section>
+            <div data-slide="0" class="carrusel-content active">
+                <img src="assets/img/1.jpg" alt="img1">
+            </div>
+            <div data-slide="1" class="carrusel-content">
+                <img src="assets/img/2.jpg" alt="img2">
+            </div>
+            <div data-slide="2" class="carrusel-content">
+                <img src="assets/img/3.jpg" alt="img3">
+            </div>
+            <div data-slide="3" class="carrusel-content">
+                <img src="assets/img/4.jpg" alt="img4">
+            </div>
+        </section>
+        <section>
+            <a href="#" class="previous active">&lt;</a>
+            <button data-target="0" class="control" type="button"></button>
+            <button data-target="1" class="control" type="button"></button>
+            <button data-target="2" class="control" type="button"></button>
+            <button data-target="3" class="control" type="button"></button>
+            <a href="#" class="next">&gt;</a>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous" type="text/javascript"></script>
+    <script type="text/javascript" src="js/app.js" ></script>
+</body>
+</html>
